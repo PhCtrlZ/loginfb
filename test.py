@@ -34,6 +34,6 @@ class FacebookLogin():
  
 if __name__ == '__main__':
     # Enter your login credentials here
-    fb_login = FacebookLogin(email='100074258102022', password='0914220047', browser='Chrome')
+    fb_login = FacebookLogin(email='your email', password='your password', browser='Chrome')
     fb_login.login()
     print("[+] Login successfully")
